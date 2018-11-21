@@ -110,7 +110,7 @@ def test():
             chukuHRB[chukudate] = conedayHRB
             chukuHRBK[chukudate] = conedayHRBK
         i = i + 1
-
+    #计算每天的数量并记录
     sheet2 = f.add_sheet(u'每天各规格零件数量',cell_overwrite_ok=True)
     row1 = [u'日期', u'品种',u'进库',u'出库',u'数量']
     for i in range(0, len(row1)):
